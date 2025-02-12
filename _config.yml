@@ -22,10 +22,10 @@ repository               : "wmn7/wmn7.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Maonan Wang / 王茂南"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "China"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
