@@ -5,23 +5,20 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Publications"
+  - title: "Publications" # 这里就是列出所有的 publication
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Experience" # 这里有一个 selected research, 有一些 highlight 的项目
+    url: /experience/       
     
-  - title: "Portfolio"
+  - title: "Portfolio" # 个人介绍, 个人图片等
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Personal Blog" # 个人网站链接
+    url: https://mathpretty.com/
     
-  - title: "CV"
+  - title: "CV" # 完整的简历
     url: /cv/
     
-  - title: "Guide"
+  - title: "Guide" # 如何编辑的指南
     url: /markdown/

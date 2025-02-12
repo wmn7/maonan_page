@@ -11,26 +11,93 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<h2>Journal papers</h2>
+
+<ol>
+  <li>
+    <strong>M. Wang</strong>, Y. Chen, Y. Kan, C. Xu, M. Lepech, M. O. Pun and X. Xiong, 
+    "Traffic Signal Cycle Control With Centralized Critic and Decentralized Actors Under Varying Intervention Frequencies", 
+    <em>IEEE Transactions on Intelligent Transportation Systems, vol. 25, no. 12, pp. 20085-20104, Dec. 2024</em>. 
+    <a href="https://ieeexplore.ieee.org/document/10696929" target="_blank">[Paper]</a>
+    <a href="https://github.com/Traffic-Alpha/CCDA-Light" target="_blank">[Github]</a>
+  </li>
+  <li>
+    X. Xiong, <strong>M. Wang</strong>, D. Sun and L. Jin, 
+    "An Approximate Dynamic Programming Approach to Vehicle Platooning Coordination in Networks", 
+    <em>IEEE Transactions on Intelligent Transportation Systems, vol. 25, no. 11, pp. 16536-16547, Nov. 2024</em>. 
+    <a href="https://ieeexplore.ieee.org/document/10591414" target="_blank">[Paper]</a>
+  </li>
+  <li>
+    <strong>M. Wang</strong>, X. Xiong, Y. Kan, C. Xu and M. O. Pun, 
+    "UniTSA: A Universal Reinforcement Learning Framework for V2X Traffic Signal Control", 
+    <em>IEEE Transactions on Vehicular Technology, vol. 73, no. 10, pp. 14354-14369, Oct. 2024</em>. 
+    <a href="https://ieeexplore.ieee.org/document/10535743" target="_blank">[Paper]</a>
+    <a href="https://github.com/wmn7/Universal-Light" target="_blank">[Github]</a>
+  </li>
+  <li>
+    A. Pang, <strong>M. Wang</strong>, Y. Chen, M. O. Pun and M. Lepech, 
+    "Scalable Reinforcement Learning Framework for Traffic Signal Control Under Communication Delays", 
+    <em>IEEE Open Journal of Vehicular Technology, vol. 5, pp. 330-343, 2024</em>. 
+    <a href="https://ieeexplore.ieee.org/document/10443835" target="_blank">[Paper]</a>
+    <a href="https://github.com/Traffic-Alpha/TSC-DelayLight" target="_blank">[Github]</a>
+  </li>
+  <li>
+    <strong>M. Wang</strong>, K. Zheng, Y. Yang and X. Wang, 
+    "An Explainable Machine Learning Framework for Intrusion Detection Systems", 
+    <em>IEEE Access, vol. 8, pp. 73127-73141, 2020</em>. 
+    <a href="https://ieeexplore.ieee.org/document/9069273" target="_blank">[Paper]</a>
+    <a href="https://github.com/wmn7/Traffic-Classification" target="_blank">[Github]</a>
+  </li>
+  <li>
+    Y. Li., Z. Lv. & <strong>M. Wang</strong>, 
+    "Visualization Investigation on the Marine Data with Multivariate Statistical Analysis Methods", 
+    <em>Polish Maritime Research, vol. 24 no. s2, pp. 89-94, 2017</em>. 
+    <a href="https://sciendo.com/article/10.1515/pomr-2017-0069" target="_blank">[Paper]</a> 
+  </li>
+</ol>
 
 
+<h2>Conference Papers</h2>
 
+<ol>
+  <li>
+    A. Pang, Z. Xu, <strong>M. Wang</strong>, M. O. Pun and Y. Kan, 
+    "Reinforcement Learning-based Traffic Signal Control Using Delayed Observations for V2X", 
+    <em>ICC 2023 - IEEE International Conference on Communications, Rome, Italy, 2023, pp. 4020-4025</em>. 
+    <a href="https://ieeexplore.ieee.org/document/10278944" target="_blank">[Paper]</a> 
+    <a href="https://github.com/Traffic-Alpha/TSC-DelayLight" target="_blank">[GitHub]</a>
+  </li>
+  <li>
+    <strong>M. Wang</strong>, Y. Xu, X. Xiong, Y. Kan, C. Xu and M. O. Pun, 
+    "ADLight: A universal approach of traffic signal control with augmented data using reinforcement learning", 
+    <em>2023 Transportation Research Board Annual Meeting (TRB)</em>. 
+    <a href="https://arxiv.org/pdf/2210.13378" target="_blank">[Paper]</a> 
+    <a href="https://github.com/wmn7/Universal-Light" target="_blank">[GitHub]</a>
+  </li>
+  <li>
+    Z. Ma, C. Xu, Y. Kan, <strong>M. Wang</strong> and W. Wu, 
+    "Adaptive Coordinated Traffic Control for Arterial Intersections based on Reinforcement Learning", 
+    <em>2021 IEEE International Intelligent Transportation Systems Conference (ITSC), Indianapolis, IN, USA, 2021, pp. 2562-2567</em>. 
+    <a href="https://ieeexplore.ieee.org/document/9564664" target="_blank">[Paper]</a> 
+  </li>
+  <li>
+    Z. Wang, K. Zheng, Q. Li, <strong>M. Wang</strong> and X. Wang, 
+    "Adversarial Text Generation for Personality Privacy Protection", 
+    <em>2021 4th International Conference on Data Science and Information Technology (DSIT 2021), New York, USA, pp. 159-165</em>. 
+    <a href="https://dl.acm.org/doi/10.1145/3478905.3478937" target="_blank">[Paper]</a> 
+  </li>
+  <li>
+    <strong>M. Wang</strong>, K. Zheng, X. Ning, Y. Yang and X. Wang, 
+    "CENTIME: A Direct Comprehensive Traffic Features Extraction for Encrypted Traffic Classification", 
+    <em>2021 IEEE 6th International Conference on Computer and Communication Systems (ICCCS), Chengdu, China, pp. 490-498</em>. 
+    <a href="https://ieeexplore.ieee.org/document/9449280" target="_blank">[Paper]</a> 
+    <a href="https://github.com/wmn7/Traffic-Classification" target="_blank">[GitHub]</a>
+  </li>
+  <li>
+    <strong>M. Wang</strong>, K. Zheng, D. Luo, Y. Yang and X. Wang, 
+    "An Encrypted Traffic Classification Framework Based on Convolutional Neural Networks and Stacked Autoencoders", 
+    <em>2020 IEEE 6th International Conference on Computer and Communications (ICCC), Chengdu, China, pp. 634-641</em>. 
+    <a href="https://ieeexplore.ieee.org/document/9344978" target="_blank">[Paper]</a> 
+    <a href="https://github.com/wmn7/Traffic-Classification" target="_blank">[GitHub]</a>
+  </li>
+</ol>
