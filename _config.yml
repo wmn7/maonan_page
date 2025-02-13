@@ -21,7 +21,7 @@ repository               : "wmn7/wmn7.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Maonan Wang"
   bio              : "Ph.D Student, CUHK(SZ)"
   location         : "China"
