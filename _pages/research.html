@@ -1,0 +1,47 @@
+---
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+---
+
+{% include base_path %}
+
+<h2>Research Interests</h2>
+<ul>
+  <li>Intelligent Systems</li>
+  <li>Reinforcement Learning</li>
+  <li>Generative AI</li>
+</ul>
+
+
+<div>
+  <h2>Traffic Signal Cycle Control Under Varying Intervention Frequencies</h2>
+  <p>
+    This study introduces an innovative joint phase traffic signal cycle control method that operates effectively across varying control intervals. 
+    Our approach features an 'adjust all phases' action design, enabling simultaneous phase changes within the signal cycle, promoting immediate stability and sustained effectiveness, even at lower frequencies. 
+    Additionally, the method utilizes decentralized actors to manage the complexity of the action space, with a centralized critic ensuring coordinated phase adjustments. 
+    This approach addresses the limitations of existing reinforcement learning-based TSC systems, offering a practical solution for real-world applications. 
+    <a href="https://ieeexplore.ieee.org/document/10696929" target="_blank">[Paper]</a> | <a href="https://github.com/Traffic-Alpha/CCDA-Light" target="_blank">[Code]</a>
+  </p>
+  <div style="text-align: center;">
+    <img src="/images/research/2024_12_CCDA.png" alt="CCDA">
+    <p>The Framework of Our Method (CCDA) with Intervention Frequency.</p>
+  </div>
+</div>
+
+
+<div>
+  <h2>A Universal RL-based Framework for Traffic Signal Control</h2>
+  <p>
+    Traffic congestion in urban areas demands effective traffic signal control (TSC) systems. Current Reinforcement Learning (RL) methods, while promising, struggle to generalize across different intersection structures. 
+    This research introduces a universal RL-based TSC framework, featuring a novel agent design that uses a junction matrix to represent intersection states. This design enhances the model's applicability to diverse intersections. 
+    Additionally, tailored traffic state augmentation methods are developed to improve the model's ability to manage various intersection configurations. 
+    The framework allows for efficient training of a robust base model, which can be quickly fine-tuned for specific intersections, addressing the generalization challenges of existing RL-based TSC methods.
+    <a href="https://ieeexplore.ieee.org/document/10535743" target="_blank">[Paper]</a> | <a href="https://github.com/wmn7/Universal-Light" target="_blank">[Code]</a>
+  </p>
+  <div style="text-align: center;">
+    <img src="/images/research/2024_10_UniTSA.png" alt="UniTSA">
+    <p>The Overall Framework of Our Universal RL-Based TSC Method.</p>
+  </div>
+</div>

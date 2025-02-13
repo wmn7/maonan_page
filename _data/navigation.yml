@@ -8,17 +8,14 @@ main:
   - title: "Publications" # 这里就是列出所有的 publication
     url: /publications/
 
-  - title: "Experience" # 这里有一个 selected research, 有一些 highlight 的项目
+  - title: "Experience" # 学习&工作经验
     url: /experience/       
     
-  - title: "Portfolio" # 个人介绍, 个人图片等
-    url: /portfolio/
+  - title: "Research" # 研究重点介绍
+    url: /research/
         
   - title: "Personal Blog" # 个人网站链接
     url: https://mathpretty.com/
-    
-  - title: "CV" # 完整的简历
-    url: /cv/
     
   - title: "Guide" # 如何编辑的指南
     url: /markdown/
