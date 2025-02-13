@@ -2,6 +2,8 @@
 
 ## Local Development
 
+### Docker Build & Docker Run
+
 To get started with local development, first clone the repository. Navigate into the cloned directory and build the Docker image with the following command:
 
 ```bash
@@ -21,6 +23,20 @@ jekyll build
 ```
 
 Once the build is complete, you can view the updated site by opening [http://127.0.0.1:5000](http://127.0.0.1:5000) in your web browser.
+
+### Docker Compose
+
+Alternatively, you can use Docker Compose to start the server:
+
+```bash
+docker compose up
+```
+
+After finishing your debugging session, you can stop the server with:
+
+```bash
+docker compose down
+```
 
 ## Acknowledgments
 
