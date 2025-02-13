@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Maonan Wang (王茂南)"
+title                    : "Maonan Wang / 王茂南"
 title_separator          : "-"
 name                     : &name "Maonan Wang"
 description              : &description "personal description"
@@ -22,8 +22,8 @@ repository               : "wmn7/wmn7.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Maonan Wang / 王茂南"
-  bio              : "PhD student, CUHK(SZ)"
+  name             : "Maonan Wang"
+  bio              : "Ph.D Student, CUHK(SZ)"
   location         : "China"
   email            : "221019954@link.cuhk.edu.cn" 
 
@@ -114,7 +114,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
